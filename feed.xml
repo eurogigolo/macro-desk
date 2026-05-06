@@ -2,14 +2,28 @@
 <rss version="2.0">
   <channel>
     <title>Karkinos Macro Desk</title>
-    <link>https://example.com/</link>
+    <link>https://eurogigolo.github.io/macro-desk/</link>
     <description>Calm global markets and economics notes from Karkinos Cove Research.</description>
-    <lastBuildDate>Sun, 03 May 2026 22:10:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 00:01:07 +0000</lastBuildDate>
 
     <item>
+      <title>Daily Macro Brief — 2026-05-05</title>
+      <link>https://eurogigolo.github.io/macro-desk/daily/2026-05-05.html</link>
+      <guid>https://eurogigolo.github.io/macro-desk/daily/2026-05-05.html</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <description>Daily Macro Brief — 2026-05-05 Status: U.S. cash markets open; oil has retraced slightly but remains elevated, and Treasury yields are consolidating after the late-April spike. Executive Take Equities slipped (Dow −1....</description>
+    </item>
+    <item>
+      <title>Daily Macro Brief — 2026-05-04</title>
+      <link>https://eurogigolo.github.io/macro-desk/daily/2026-05-04.html</link>
+      <guid>https://eurogigolo.github.io/macro-desk/daily/2026-05-04.html</guid>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <description>Daily Macro Brief — 2026-05-04 Status: U.S. cash markets open; data fractures still driven by oil supply fears, sticky price signals and the Fed’s ‘wait-`and`-see’ stance. Executive Take Oil rally kept early May risk...</description>
+    </item>
+    <item>
       <title>Daily Macro Brief — 2026-05-01</title>
-      <link>https://example.com/daily/2026-05-01.html</link>
-      <guid>https://example.com/daily/2026-05-01.html</guid>
+      <link>https://eurogigolo.github.io/macro-desk/daily/2026-05-01.html</link>
+      <guid>https://eurogigolo.github.io/macro-desk/daily/2026-05-01.html</guid>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
       <description>Daily Macro Brief — 2026-05-01 _As of: Fri May 1, 2026 (US close / evening ET)._ Executive Take Markets are sending a “mixed risk” signal: US equities were uneven (tech/NDQ stronger, Dow weaker), while oil fell sharpl...</description>
     </item>

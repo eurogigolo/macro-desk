@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Macro Brief — 2026-05-04</title>
+  <style>
+    :root {
+      --ink: #17130f;
+      --muted: #665f57;
+      --paper: #f7f1e8;
+      --panel: #fffaf2;
+      --night: #101012;
+      --reef: #de5f3f;
+      --tide: #0f7f7a;
+      --gold: #c7902f;
+      --line: #dac9b6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      letter-spacing: 0;
+    }
+    header {
+      color: #fff7ed;
+      background: var(--night);
+      border-bottom: 6px solid var(--reef);
+    }
+    .masthead {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 42px 24px 34px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 28px;
+      align-items: end;
+    }
+    .brand-kicker {
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin: 0 0 8px;
+    }
+    .brand {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(40px, 7vw, 86px);
+      font-weight: 700;
+      line-height: 0.92;
+    }
+    .tagline {
+      max-width: 760px;
+      margin: 18px 0 0;
+      color: #e7d7c3;
+      font-size: 17px;
+      line-height: 1.55;
+    }
+    .contact {
+      color: #f1d18f;
+      text-decoration: none;
+      font-weight: 700;
+      border-bottom: 1px solid rgba(241, 209, 143, 0.5);
+    }
+    .signal-box {
+      min-width: 240px;
+      border: 1px solid rgba(255, 247, 237, 0.22);
+      padding: 18px;
+      background: #171719;
+    }
+    .signal-box p {
+      margin: 0;
+      color: #e7d7c3;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .signal-label {
+      display: block;
+      color: var(--reef);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    main {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 34px 24px 64px;
+      line-height: 1.58;
+    }
+    h1, h2, h3 { line-height: 1.12; letter-spacing: 0; }
+    h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(34px, 5vw, 58px); }
+    h2 {
+      font-size: 13px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--tide);
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 10px;
+    }
+    h3 { font-size: clamp(24px, 3vw, 36px); margin: 4px 0 14px; }
+    a { color: #0b6865; }
+    code { background: #efe1cf; padding: 2px 5px; border-radius: 4px; }
+    .note { color: var(--muted); font-size: 14px; }
+    .deck {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin: 18px 0 34px;
+    }
+    .deck div {
+      border-top: 3px solid var(--reef);
+      background: rgba(255, 250, 242, 0.72);
+      padding: 14px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .deck strong {
+      display: block;
+      color: var(--ink);
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    .card {
+      border-top: 1px solid var(--line);
+      padding: 28px 0 34px;
+    }
+    .card h3 a {
+      color: var(--ink);
+      text-decoration-thickness: 2px;
+      text-decoration-color: var(--reef);
+      text-underline-offset: 5px;
+    }
+    figure { margin: 18px 0 30px; }
+    figcaption {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 7px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid var(--line);
+      background: #fff;
+      box-shadow: 0 18px 40px rgba(30, 24, 18, 0.13);
+    }
+    footer {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px 38px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    @media (max-width: 760px) {
+      .masthead { grid-template-columns: 1fr; padding-top: 32px; }
+      .signal-box { min-width: 0; }
+      .deck { grid-template-columns: 1fr; }
+      main { padding-inline: 18px; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="masthead">
+    <div>
+      <p class="brand-kicker">Karkinos Cove Research</p>
+      <p class="brand">Karkinos Macro Desk</p>
+      <p class="tagline">Calm global markets and economics notes: what moved, why it matters, and what to watch next.</p>
+    </div>
+    <div class="signal-box">
+      <span class="signal-label">Signal Discipline</span>
+      <p>Chart-backed, source-linked, seven-day macro tape. Educational research only.</p>
+      <p><a class="contact" href="mailto:karkinoscove@gmail.com">karkinoscove@gmail.com</a></p>
+    </div>
+  </div>
+</header>
+<main>
+<figure><img src='../charts/2026-05-04-market-dashboard.png' alt='Market dashboard'><figcaption>Market dashboard</figcaption></figure><figure><img src='../charts/2026-05-04-rotation-risk.png' alt='Rotation and risk map'><figcaption>Rotation and risk map</figcaption></figure><h1>Daily Macro Brief — 2026-05-04</h1>
+<p><strong>Status:</strong> U.S. cash markets open; data fractures still driven by oil supply fears, sticky price signals and the Fed’s ‘wait-<code>and</code>-see’ stance.</p>
+<h2>Executive Take</h2>
+<p>Oil rally kept early May risk sentiment half-honored: <strong>S&amp;P 500</strong> and <strong>Nasdaq</strong> rallied modestly while the <strong>Dow lagged</strong>, yet <strong>WTI ripped toward $106</strong> and <strong>gold pulled back</strong>—a reminder that higher energy prices and the Fed’s hawkish hold keep policy risk top of mind even as investors lean back into tech.</p>
+<h2>What Moved</h2>
+<ul>
+<li><strong>Equities:</strong> Macro desk snapshot (S&amp;P ETF $720.65, +0.28%; Nasdaq ETF $674.15, +0.96%; Dow ETF $495.02, −0.33%) capture Friday’s rebound and Monday’s drift. (See <code>macro-desk/data/2026-05-04-snapshot.csv</code>.)</li>
+<li><strong>Commodities:</strong> WTI $105.65 (+3.64%) after renewed Strait of Hormuz jitters and the UAE’s OPEC + exit lifted the risk premium; <strong>gold retreated to $4,573</strong> (−1.2%). VIX ticked to 18.1 (+6.5%), reflecting a pinch of unease.</li>
+<li><strong>Rates &amp; FX:</strong> 2Y=3.88%, 10Y=4.39%, 30Y=4.97% (tiny drops vs. 5/1). Dollar Index held near 98.34 (+0.13%), echoing the Fed’s steady-but-wary tone.</li>
+</ul>
+<h2>Why It Matters</h2>
+<ul>
+<li>The Fed left the target range at <strong>3.50%–3.75%</strong> on April 29, flagged Middle East energy risk and showed squabbling dissents; the tone remains “data dependent” rather than easing, so this week’s jobs/CPI/PPI prints will be judged against a backdrop of <strong>rising oil and receding gold</strong>, both of which keep headline inflation risks alive. <a href="https://www.reuters.com/business/fed-likely-hold-rates-steady-what-may-be-last-meeting-powell-era-2026-04-29/">Reuters</a> and <a href="https://www.euronews.com/business/2026/04/30/ecb-holds-rates-at-2-as-inflation-rises-and-eurozone-growth-slows">Euronews</a>.</li>
+<li>Across the Atlantic, the ECB held at <strong>2.0%</strong> while euro-area inflation stayed at ~3% (core ~2.2%), so European policy remains sticky even as growth slows. This keeps the dollar resilient and limits pace of global risk-on rallies.</li>
+<li>China’s manufacturing PMI climbed to <strong>52.2 in April (vs. 50.8)</strong>, keeping yuan-sensitive exporters and commodity consumers on guard for a re-acceleration of demand. <a href="https://tradingeconomics.com/china/manufacturing-pmi">TradingEconomics</a></li>
+</ul>
+<h2>Watch Next</h2>
+<p>1. <strong>May 8 (08:30 ET):</strong> U.S. <strong>Employment Situation (April)</strong>—any surprise in payrolls or wages could tilt the Fed narrative back toward hikes or cement the pause.</p>
+<p>2. <strong>May 12 (08:30 ET):</strong> U.S. <strong>CPI (April)</strong>—ISM Prices already spiked; a follow-through would keep the window to cuts closed.</p>
+<p>3. <strong>May 13 (08:30 ET):</strong> U.S. <strong>PPI (April)</strong>—upstream price momentum plus oil pushes may show up before CPI.</p>
+<h2>24/7 Tape Signal</h2>
+<p>Hyperliquid’s 24-hour data still shows <strong>extreme altcoin activity</strong> (see <code>macro-desk/data/2026-05-04-hyperliquid-24-7.csv</code>): TST exploded <strong>+72.6%</strong> on tiny liquidity, ZEC jumped 5.1%, and funding sticks close to neutral/positive across BTC, ETH and smaller names. No large funding stress yet—this is a risk-on wobble that may dampen quickly unless energy/FX cues shift.</p>
+<h2>One Chart Idea</h2>
+<p>Use the market-dashboard (see <code>macro-desk/charts/2026-05-04-market-dashboard.png</code>) as a base: overlay the <strong>5-session macro movers</strong> (WTI vs. Nasdaq vs. S&amp;P) with the <strong>10Y‑2Y curve</strong> to show how higher oil is coinciding with curve flattening and tech strength. It tells the growth-vs.-inflation story in one view.</p>
+<h2>Publish-Ready Short Post</h2>
+<p>Oil’s price squeeze is the heartbeat for late-April Fed suspense. Equities pulled back into a mixed tape while WTI jumped +3.6% (Strait of Hormuz + UAE exit) and gold slipped ~1.2%. The Fed held 3.50%‑3.75%, the ECB kept 2% with 3% headline inflation, and China’s PMI rebounded to 52.2, so the cash calendar now focuses on <strong>jobs (May 8)</strong>, <strong>CPI (May 12)</strong> and <strong>PPI (May 13)</strong>. The Macro Desk dashboard shows where tech resilience, oil, and the curve intersect—watch for whether energy/labor data keeps the Fed in wait mode or forces a rethink.</p>
+<h2>Sources</h2>
+<ul>
+<li><code>macro-desk/data/2026-05-04-snapshot.csv</code> (equities, commodities, yields, VIX)</li>
+<li><code>macro-desk/data/2026-05-04-hyperliquid-24-7.csv</code> (Hyperliquid 24/7 tape)</li>
+<li><code>macro-desk/charts/2026-05-04-market-dashboard.png</code> (chart-led dashboard)</li>
+<li>Reuters: Fed hold &amp; hawkish-tone summary — <a href="https://www.reuters.com/business/fed-likely-hold-rates-steady-what-may-be-last-meeting-powell-era-2026-04-29/">https://www.reuters.com/business/fed-likely-hold-rates-steady-what-may-be-last-meeting-powell-era-2026-04-29/</a></li>
+<li>Euronews: ECB holds at 2%, inflation 3% — <a href="https://www.euronews.com/business/2026/04/30/ecb-holds-rates-at-2-as-inflation-rises-and-eurozone-growth-slows">https://www.euronews.com/business/2026/04/30/ecb-holds-rates-at-2-as-inflation-rises-and-eurozone-growth-slows</a></li>
+<li>TradingEconomics: China manufacturing PMI April 2026 — <a href="https://tradingeconomics.com/china/manufacturing-pmi">https://tradingeconomics.com/china/manufacturing-pmi</a></li>
+<li>TradingEconomics: Gold price May 4, 2026 (for extra color)—<a href="https://tradingeconomics.com/commodity/gold">https://tradingeconomics.com/commodity/gold</a></li>
+<li>Reuters: Oil supply risk via Hormuz, UAE exit — <a href="https://www.reuters.com/business/energy/oil-prices-rise-no-end-iran-war-stand-off-seems-sight-2026-04-28/">https://www.reuters.com/business/energy/oil-prices-rise-no-end-iran-war-stand-off-seems-sight-2026-04-28/</a></li>
+</ul>
+</main>
+<footer>Educational research only. Not investment advice.</footer>
+</body>
+</html>
